@@ -15,8 +15,8 @@ h4 {
     margin-top: 100px;
     background-color: rgb(15, 38, 59);
     color: white;
-    height: 70vh;
-    width: 420px;
+    height: fit-content;
+    width: fit-content;
     padding: 20px;
     border-radius: 10px;
     overflow: auto;
