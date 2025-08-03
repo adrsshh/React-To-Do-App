@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(41, 41, 41, 0.705);
+}
+
+h4 {
+    margin-left: 250px;
+    color: aliceblue;
+}
+
+.container {
+    box-shadow: palevioletred;
+    margin-top: 100px;
+    background-color: rgb(15, 38, 59);
+    color: white;
+    height: 70vh;
+    width: 420px;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+
+
+}
+
+h1 {
+    font-family: monospace;
+    color: chartreuse;
+    font-weight: bolder;
+}
+
+input {
+    color: rgb(0, 0, 0);
+    background-color: rgb(44, 101, 105);
+    width: 300px;
+    height: 37px;
+    border-radius: 20px;
+    margin: 2px;
+    font-family: monospace;
+    font-size: larger;
+    border: 0px;
+}
+
+.Add-Btn {
+    height: 40px;
+    border-radius: 20px;
+    margin: 2px;
+    border: 1px solid rgb(20, 20, 27);
+    background-color: rgb(26, 15, 73);
+    transition: 0.1s ease-in;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(255, 252, 252);
+}
+
+.Add-Btn:hover {
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.Delete-Btn {
+    background-color: rgb(255, 0, 0);
+    border: 0px;
+    border-radius: 2px;
+    margin: 5px;
+    height: 30px;
+    transition: 0.1s ease-in;
+}
+
+.Up-Btn {
+    background-color: rgb(77, 65, 143);
+    border: 0px;
+    border-radius: 2px;
+    margin: 5px;
+    height: 30px;
+    transition: 0.1s ease-in;
+}
+
+.Down-Btn {
+    background-color: rgb(7, 42, 236);
+    border: 0px;
+    border-radius: 2px;
+    margin: 5px;
+    height: 30px;
+    transition: 0.1s ease-in;
+}
+
+.Delete-Btn:hover,
+.Up-Btn:hover,
+.Down-Btn:hover {
+    transform: scale(1.1);
+    opacity: 0.5;
+}
