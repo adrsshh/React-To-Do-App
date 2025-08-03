@@ -1,12 +1,38 @@
-# React + Vite
+# ⚡️ React To-Do App 🧠
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and minimal To-Do list app built with **React + Vite**.  
+Manage your daily tasks like a productivity pro 🚀
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+✅ Add new tasks  
+🗑️ Delete tasks instantly  
+👆 Move tasks up the list  
+👇 Move tasks down the list  
+🎯 Instant UI updates with React Hooks  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ How It Works
+
+- Built using **React** (`useState`) for dynamic state management ⚛️  
+- Tasks are stored in an array and rendered in an ordered list 📝  
+- Task input is validated to prevent empty entries  
+- Buttons allow you to reorder or delete tasks with ease 🔃
+
+---
+
+## 🧪 Future Upgrades
+
+🧷 LocalStorage support to save tasks  
+🕒 Add due dates & reminders  
+📂 Task categories or tags  
+🧲 Drag & drop reordering  
+🌓 Dark mode toggle  
+🎨 Enhanced animations with Framer Motion  
+
+---
+
+## 🧑‍💻 Made with 💻 by Adharsh Kumar Singh
