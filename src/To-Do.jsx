@@ -3,7 +3,7 @@ import { useState } from "react";
 
 
 function ToDo() {
-    const [tasks, setTasks] = useState(["EAT AT 9", "SLEEP AT 10", "WRITE AN ESSAY"]);
+    const [tasks, setTasks] = useState(["ADHARSH", "KUMAR", "SINGH"]);
     const [newTask, setNewTask] = useState("");
 
     function inputHandle(event) {
@@ -66,7 +66,6 @@ function ToDo() {
                 }
             </ol>
             </div>
-            <h4>by Adharsh Kumar Singh</h4>
         </div>
     )
 }
