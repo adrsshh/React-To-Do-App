@@ -12,6 +12,7 @@ h4 {
 }
 
 .container {
+    position: absolute;
     box-shadow: palevioletred;
     inset: 0;
     background-color: rgb(15, 38, 59);
