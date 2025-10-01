@@ -13,7 +13,7 @@ h4 {
 
 .container {
     box-shadow: palevioletred;
-    
+    inset: 0;
     background-color: rgb(15, 38, 59);
     color: white;
     height: fit-content;
